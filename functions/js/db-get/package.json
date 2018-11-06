@@ -1,0 +1,10 @@
+{
+	"name": "get-cat-action",
+	"description": "Node OpenWhisk action to get a cat by ID from a MySQL database",
+	"license": "Apache-2.0",
+	"version": "1.0.0",
+	"main": "db-get.js",
+	"dependencies": {
+		"promise-mysql": "3.0.1"
+	}
+}
