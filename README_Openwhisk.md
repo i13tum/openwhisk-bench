@@ -57,8 +57,6 @@ Start docker
 
 `nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock &`
 
-``
-
 8. Build images and distribute them:
 
 ```
