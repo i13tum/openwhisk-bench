@@ -34,7 +34,7 @@ Each test case is internally executing the script **exec_series.py**, which is r
 
 # Statistics
 
-After the test case execution was finished, the results are available in the results folder in the root of the project. The results within the folder are distributed into directories named as the executed sample functions. Within each of the folders:
+After the test case execution was finished, the results are available in the **results** folder in the root of the project. The results within the folder are distributed into directories named as the executed sample functions. Within each of the folders:
 
 * Files pulled from invokers, containing two columns: CPU and RAM usage on the specific Openwhisk invoker. The file naming follows the following pattern: *invokerId_functionInput_numberOfConcurrentRequests_.txt*.
   
