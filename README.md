@@ -1,6 +1,6 @@
 # Update config files
 
-The **scripts/config/invoker_hosts** and scripts/config/tester_hosts files have to be updated with the actual IPs of Openwhisk invoker machines and tester machines correspondingly. The count of machines in each case can be absolutely arbitrary, and the framework will take it into account automatically.
+The **scripts/config/invoker_hosts** and **scripts/config/tester_hosts** files have to be updated with the actual IPs of Openwhisk invoker machines and tester machines correspondingly. The count of machines in each case can be absolutely arbitrary, and the framework will take it into account automatically.
 
 # Prepare tester machines
 
