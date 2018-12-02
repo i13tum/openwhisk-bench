@@ -4,7 +4,19 @@ The **scripts/config/invoker_hosts** and scripts/config/tester_hosts files have 
 
 # Prepare tester machines
 
-To make the scripts work correctly, make sure that the following software is installed on all tester machines: Python, Python packages **concurrent** and **requests**.
+To make the scripts work correctly, make sure that the following software is installed on all tester machines: Python, Python packages **futures** and **requests**.
+
+```
+sudo apt-get update -y
+sudo apt-get install -y python2.7 python-pip
+
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+sudo dpkg-reconfigure locales
+
+pip install futures
+pip install requests
+```
 
 Also make sure that the host which is used as the starting point for the framework, has an SSH access to all the tester machines with login **ubuntu**.
 
