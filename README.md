@@ -34,6 +34,8 @@ The script **tests.py** is supposed to be used to execute a test case. There is 
 
 Each test case is internally executing the script **exec_series.py**, which is responsible for a single test execution and accepts the name of the function, the function input and the number of concurrent requests as an input.
 
+Sometimes right after Openwhisk was setup, an attempt to run a test against it fails, with Openwhisk returning 502 for every request. I have no found the reason why this happens, and only a full redeploy of Openwhisk helps to fix it.
+
 # Statistics
 
 After the test case execution was finished, the results are available in the **results** folder in the root of the project. The results within the folder are distributed into directories named as the executed sample functions. Within each of the folders:
