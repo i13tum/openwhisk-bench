@@ -2,6 +2,8 @@
 
 The **scripts/config/invoker_hosts** and **scripts/config/tester_hosts** files have to be updated with the actual IPs of Openwhisk invoker machines and tester machines correspondingly. The count of machines in each case can be absolutely arbitrary, and the framework will take it into account automatically.
 
+Also update relevant URLs in the upper part of the **exec_remote.py** script, i.e. the host of the Openwhisk API, Kubernetes API and the MySQL instance.
+
 # Prepare tester machines
 
 To make the scripts work correctly, make sure that the following software is installed on all tester machines: Python, Python packages **futures** and **requests**.
